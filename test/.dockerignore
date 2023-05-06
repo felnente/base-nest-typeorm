@@ -1,0 +1,27 @@
+# arquivos de log
+logs
+*.log
+
+# arquivos de cache e build
+node_modules
+dist
+coverage
+
+# arquivos de configuração local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# arquivos de backup
+*.bak
+*.backup
+
+# outros arquivos e pastas que podem ser ignorados
+.vscode
+.git
+.idea
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
